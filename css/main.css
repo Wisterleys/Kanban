@@ -1,0 +1,22 @@
+html,body{margin: 0px;padding: 0px;}
+main{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    display: grid;
+    grid-template-areas:"top"
+                         "middle"
+                         "bottom";
+}
+main header{
+    grid-area: top;
+    background-color: blue;
+}
+main section{
+    grid-area: middle;
+    background-color: brown;
+}
+main footer{
+    grid-area: bottom;
+    background-color: cornflowerblue;
+}
