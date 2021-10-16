@@ -5,6 +5,16 @@ main{
     padding: 0px;
     display: grid;
     grid-template-areas:"top"
+                        "top"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
                          "middle"
                          "bottom";
 }
