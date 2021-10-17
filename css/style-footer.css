@@ -1,0 +1,21 @@
+ footer {
+     color: white;font-family: monospace;
+     display: flex;
+     justify-content: center;
+    }
+ footer article{
+     width: 100%;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+    }
+ footer article aside{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+#git{width:25px;margin:5px 0;padding:0;}
+#git img{width: 100%;margin:0;padding:0;}
+#face{width:25px;margin:5px;padding:0;}
+#face img{width: 100%;margin:0;padding:0;}
