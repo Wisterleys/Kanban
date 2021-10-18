@@ -1,0 +1,33 @@
+.creations{
+    grid-area: left;
+    background-color: crimson;
+}
+.searchs{
+    grid-area: right;
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+}
+.lup{
+    background-color: white;
+    border-radius: 90px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+
+}
+.lup #search{
+    outline: none;
+    border:none;
+    width: 90%;
+    font-size: 14pt;
+    border-radius: 90px;
+    padding: 10px;
+    
+}
+.lup [type=image]{
+    outline: none;
+    border:none;
+    width: 10%;
+    
+}
