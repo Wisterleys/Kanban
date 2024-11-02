@@ -1,0 +1,38 @@
+html,body{margin: 0px;padding: 0px;}
+body{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+    display: grid;
+    grid-template-areas:"top"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "middle"
+                         "bottom";
+}
+header{
+    grid-area: top;
+    background-color: blue;
+    display: grid;
+    grid-template-areas: "left right";
+}
+main{
+    grid-area: middle;
+    background-color: brown;
+    display: flex;
+}
+footer{
+    grid-area: bottom;
+    background-color: cornflowerblue;
+}
